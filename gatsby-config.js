@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Token Viewer`,
+    title: `token-viewer`,
     description: `View design tokens`,
     author: `@jtini`,
   },
