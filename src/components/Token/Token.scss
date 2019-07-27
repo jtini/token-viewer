@@ -1,0 +1,62 @@
+@import '../../stylesheets/tokens';
+
+.token {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: $p__small 0;
+    
+    &:not(:first-of-type) {
+        border-top: 1px solid $border-color;
+    }
+}
+
+.token__swatch-wrapper {
+    text-align: right;
+    font-family: $font-family__code;
+    font-size: $fs-label;
+    text-transform: lowercase;
+}
+
+.token__swatch {
+    display: inline-block;
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: $br__button;
+    margin-bottom: $m__xsmall;
+
+    // Should be overriden for color swatches
+    background-color: rgba($c__primary, .3);
+}
+
+.token__name {
+    padding: $p__xsmall;
+    font-family: $font-family__code;
+    color: $text-color__copy;
+    border-radius: $br__button;
+    background-color: transparent;
+    text-align: left;
+
+    &:hover {
+        color: $c__primary;
+        cursor: pointer;
+    }
+
+    &:focus {
+        outline: none;
+        background-color: rgba($c__primary-lighter, 0.5);
+    }
+}
+
+.token__value {
+    margin-top: $m__small;
+    font-family: $font-family__code;
+    font-size: $fs-ui;
+    text-transform: lowercase;
+    font-variant-ligatures: no-common-ligatures;
+    color: $text-color__copy-lighter;
+}
+.token__text {
+    padding: $p__xsmall;
+    border-radius: $br__button;
+}

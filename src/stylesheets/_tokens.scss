@@ -1,0 +1,334 @@
+/**
+* Do not edit directly
+* Generated on Sat, 27 Jul 2019 17:08:41 GMT
+*/
+
+$br__button: 0.25rem !default;
+$br__input: 0.25rem !default;
+$bg: #F9FAFC !default;
+$bg-light: #fff !default;
+$bg-dark: #f0f2f7 !default;
+$bg__night: #15181E !default;
+$bg__night-light: #3e4552 !default;
+$bg__night-dark: #0a0c10 !default;
+$border-color: #e1e4eb !default;
+$border-color-bold: #c7cbd6 !default;
+$border-color__night: #b0b5c1 !default;
+$border-color__night-bold: #e1e4eb !default;
+$c__greyscale-0: #f0f2f7 !default;
+$c__greyscale-1: #e1e4eb !default;
+$c__greyscale-2: #c7cbd6 !default;
+$c__greyscale-3: #b0b5c1 !default;
+$c__greyscale-4: #969eab !default;
+$c__greyscale-5: #7f8794 !default;
+$c__greyscale-6: #69707d !default;
+$c__greyscale-7: #525966 !default;
+$c__greyscale-8: #3e4552 !default;
+$c__greyscale-9: #2c323d !default;
+$c__greyscale-10: #0a0c10 !default;
+$c__primary: #1948cb !default;
+$c__primary-lighter: #e1e7f9 !default;
+$c__primary-light: #4a70d9 !default;
+$c__primary-dark: #072e99 !default;
+$c__primary-darker: #00195d !default;
+$c__secondary: #5a5ae6 !default;
+$c__secondary-lighter: #e7e7fa !default;
+$c__secondary-light: #8388f0 !default;
+$c__secondary-dark: #4136ba !default;
+$c__secondary-darker: #26223b !default;
+$c__success: #00b2b2 !default;
+$c__success-lighter: #daf2f2 !default;
+$c__success-light: #6fd0d0 !default;
+$c__success-dark: #0f8385 !default;
+$c__success-darker: #0f3a3a !default;
+$c__warn: #ffaa00 !default;
+$c__warn-lighter: #fdf2db !default;
+$c__warn-light: #fbcd70 !default;
+$c__warn-dark: #b47800 !default;
+$c__warn-darker: #473000 !default;
+$c__critical: #cb2f24 !default;
+$c__critical-lighter: #ffe8e6 !default;
+$c__critical-light: #ee5c52 !default;
+$c__critical-dark: #98180f !default;
+$c__critical-darker: #4f0803 !default;
+$text-color__copy: #2c323d !default;
+$text-color__copy-light: #525966 !default;
+$text-color__copy-lighter: #7f8794 !default;
+$text-color__code: #fff !default;
+$text-color__code-red: #F07971 !default;
+$text-color__code-orange: #F78C6C !default;
+$text-color__code-yellow: #FFCE6B !default;
+$text-color__code-green: #C3E88D !default;
+$text-color__code-blue: #9BEDED !default;
+$text-color__code-indigo: #82A3FF !default;
+$text-color__code-violet: #CD92EA !default;
+$text-color__code-grey: #B0B5C1 !default;
+$font-family__sans: 'Source Sans Pro', 'Roboto', 'Helvetica', sans-serif !default;
+$font-family__serif: 'Source Sans Pro', 'Roboto', 'Helvetica', sans-serif !default;
+$font-family__mono: 'Source Code Pro', Courier, monospace !default;
+$font-family__primary: 'Source Sans Pro', 'Roboto', 'Helvetica', sans-serif !default;
+$font-family__label: 'Source Code Pro', Courier, monospace !default;
+$font-family__code: 'Source Code Pro', Courier, monospace !default;
+$fs-label: 0.75rem !default;
+$fs-code: 0.75rem !default;
+$fs-ui: 0.875rem !default;
+$fs-body: 1rem !default;
+$fs-subheading-small: 1.125rem !default;
+$fs-subheading-large: 1.25rem !default;
+$fs-heading-small: 1.25rem !default;
+$fs-heading-large: 1.375rem !default;
+$fs-title-small: 1.5rem !default;
+$fs-title-large: 2rem !default;
+$fs__desktop-subheading-large: 1.375rem !default;
+$fs__desktop-heading-small: 1.375rem !default;
+$fs__desktop-heading-large: 1.5rem !default;
+$fs__desktop-title-small: 1.75rem !default;
+$fs__desktop-title-large: 2.625rem !default;
+$lh-label: 1rem !default;
+$lh-code: 1rem !default;
+$lh-ui: 1rem !default;
+$lh-body: 1.375rem !default;
+$lh-subheading-small: 1.375rem !default;
+$lh-subheading-large: 1.5rem !default;
+$lh-heading-small: 1.5rem !default;
+$lh-heading-large: 1.5rem !default;
+$lh-title-small: 1.75rem !default;
+$lh-title-large: 2.25rem !default;
+$lh__desktop-subheading-large: 1.75rem !default;
+$lh__desktop-heading-small: 1.75rem !default;
+$lh__desktop-heading-large: 1.75rem !default;
+$lh__desktop-title-small: 2rem !default;
+$lh__desktop-title-large: 2.625rem !default;
+$fw__normal: 400 !default;
+$fw__bold: 600 !default;
+$layer__raised: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.05)  !default;
+$layer__floating: 0 4px 12px rgba(0,0,0,0.1) !default;
+$l__breakpoint-small: 31.25rem !default;
+$l__breakpoint-medium: 46.875rem !default;
+$l__breakpoint-large: 62.5rem !default;
+$l__breakpoint-x-large: 75rem !default;
+$l__width-tight: 30rem !default;
+$l__width: 45rem !default;
+$l__width-wide: 65rem !default;
+$m__0: 0 !default;
+$m__xsmall: 0.25rem !default;
+$m__small: 0.5rem !default;
+$m__medium: 1rem !default;
+$m__large: 1.25rem !default;
+$m__xlarge: 2rem !default;
+$p__0: 0 !default;
+$p__xsmall: 0.25rem !default;
+$p__small: 0.5rem !default;
+$p__medium: 1rem !default;
+$p__large: 1.25rem !default;
+$p__xlarge: 2rem !default;
+$size__font-1: 0.75rem !default;
+$size__font-2: 0.875rem !default;
+$size__font-3: 1rem !default;
+$size__font-4: 1.125rem !default;
+$size__font-5: 1.25rem !default;
+$size__font-6: 1.375rem !default;
+$size__font-7: 1.5rem !default;
+$size__font-8: 1.75rem !default;
+$size__font-9: 2rem !default;
+$size__font-10: 2.625rem !default;
+$size__tap: 3rem !default;
+$size__tap-small: 2.25rem !default;
+$spacing__0: 0 !default;
+$spacing__1: 0.25rem !default;
+$spacing__2: 0.5rem !default;
+$spacing__3: 0.75rem !default;
+$spacing__4: 1rem !default;
+$spacing__5: 1.25rem !default;
+$spacing__6: 1.5rem !default;
+$spacing__7: 2rem !default;
+$spacing__8: 2.5rem !default;
+$spacing__9: 3rem !default;
+$spacing__10: 3.75rem !default;
+
+$hw-border-radius: (
+  'button': $br__button,
+  'input': $br__input
+);
+
+$hw-background-color: (
+  'base': $bg,
+  'light': $bg-light,
+  'dark': $bg-dark,
+  'night': $bg__night,
+  'night-light': $bg__night-light,
+  'night-dark': $bg__night-dark
+);
+
+$hw-border-color: (
+  'base': $border-color,
+  'bold': $border-color-bold,
+  'night': $border-color__night,
+  'night-bold': $border-color__night-bold
+);
+
+$hw-color: (
+  'greyscale-0': $c__greyscale-0,
+  'greyscale-1': $c__greyscale-1,
+  'greyscale-2': $c__greyscale-2,
+  'greyscale-3': $c__greyscale-3,
+  'greyscale-4': $c__greyscale-4,
+  'greyscale-5': $c__greyscale-5,
+  'greyscale-6': $c__greyscale-6,
+  'greyscale-7': $c__greyscale-7,
+  'greyscale-8': $c__greyscale-8,
+  'greyscale-9': $c__greyscale-9,
+  'greyscale-10': $c__greyscale-10,
+  'primary': $c__primary,
+  'primary-lighter': $c__primary-lighter,
+  'primary-light': $c__primary-light,
+  'primary-dark': $c__primary-dark,
+  'primary-darker': $c__primary-darker,
+  'secondary': $c__secondary,
+  'secondary-lighter': $c__secondary-lighter,
+  'secondary-light': $c__secondary-light,
+  'secondary-dark': $c__secondary-dark,
+  'secondary-darker': $c__secondary-darker,
+  'success': $c__success,
+  'success-lighter': $c__success-lighter,
+  'success-light': $c__success-light,
+  'success-dark': $c__success-dark,
+  'success-darker': $c__success-darker,
+  'warn': $c__warn,
+  'warn-lighter': $c__warn-lighter,
+  'warn-light': $c__warn-light,
+  'warn-dark': $c__warn-dark,
+  'warn-darker': $c__warn-darker,
+  'critical': $c__critical,
+  'critical-lighter': $c__critical-lighter,
+  'critical-light': $c__critical-light,
+  'critical-dark': $c__critical-dark,
+  'critical-darker': $c__critical-darker
+);
+
+$hw-text-color: (
+  'copy': $text-color__copy,
+  'copy-light': $text-color__copy-light,
+  'copy-lighter': $text-color__copy-lighter,
+  'code': $text-color__code,
+  'code-red': $text-color__code-red,
+  'code-orange': $text-color__code-orange,
+  'code-yellow': $text-color__code-yellow,
+  'code-green': $text-color__code-green,
+  'code-blue': $text-color__code-blue,
+  'code-indigo': $text-color__code-indigo,
+  'code-violet': $text-color__code-violet,
+  'code-grey': $text-color__code-grey
+);
+
+$hw-font-family: (
+  'sans': $font-family__sans,
+  'serif': $font-family__serif,
+  'mono': $font-family__mono,
+  'primary': $font-family__primary,
+  'label': $font-family__label,
+  'code': $font-family__code
+);
+
+$hw-font-size: (
+  'label': $fs-label,
+  'code': $fs-code,
+  'ui': $fs-ui,
+  'body': $fs-body,
+  'subheading-small': $fs-subheading-small,
+  'subheading-large': $fs-subheading-large,
+  'heading-small': $fs-heading-small,
+  'heading-large': $fs-heading-large,
+  'title-small': $fs-title-small,
+  'title-large': $fs-title-large,
+  'desktop-subheading-large': $fs__desktop-subheading-large,
+  'desktop-heading-small': $fs__desktop-heading-small,
+  'desktop-heading-large': $fs__desktop-heading-large,
+  'desktop-title-small': $fs__desktop-title-small,
+  'desktop-title-large': $fs__desktop-title-large
+);
+
+$hw-line-height: (
+  'label': $lh-label,
+  'code': $lh-code,
+  'ui': $lh-ui,
+  'body': $lh-body,
+  'subheading-small': $lh-subheading-small,
+  'subheading-large': $lh-subheading-large,
+  'heading-small': $lh-heading-small,
+  'heading-large': $lh-heading-large,
+  'title-small': $lh-title-small,
+  'title-large': $lh-title-large,
+  'desktop-subheading-large': $lh__desktop-subheading-large,
+  'desktop-heading-small': $lh__desktop-heading-small,
+  'desktop-heading-large': $lh__desktop-heading-large,
+  'desktop-title-small': $lh__desktop-title-small,
+  'desktop-title-large': $lh__desktop-title-large
+);
+
+$hw-font-weight: (
+  'normal': $fw__normal,
+  'bold': $fw__bold
+);
+
+$hw-layer: (
+  'raised': $layer__raised,
+  'floating': $layer__floating
+);
+
+$hw-layout: (
+  'breakpoint-small': $l__breakpoint-small,
+  'breakpoint-medium': $l__breakpoint-medium,
+  'breakpoint-large': $l__breakpoint-large,
+  'breakpoint-x-large': $l__breakpoint-x-large,
+  'width-tight': $l__width-tight,
+  'width': $l__width,
+  'width-wide': $l__width-wide
+);
+
+$hw-margin: (
+  '0': $m__0,
+  'xsmall': $m__xsmall,
+  'small': $m__small,
+  'medium': $m__medium,
+  'large': $m__large,
+  'xlarge': $m__xlarge
+);
+
+$hw-padding: (
+  '0': $p__0,
+  'xsmall': $p__xsmall,
+  'small': $p__small,
+  'medium': $p__medium,
+  'large': $p__large,
+  'xlarge': $p__xlarge
+);
+
+$hw-size: (
+  'font-1': $size__font-1,
+  'font-2': $size__font-2,
+  'font-3': $size__font-3,
+  'font-4': $size__font-4,
+  'font-5': $size__font-5,
+  'font-6': $size__font-6,
+  'font-7': $size__font-7,
+  'font-8': $size__font-8,
+  'font-9': $size__font-9,
+  'font-10': $size__font-10,
+  'tap': $size__tap,
+  'tap-small': $size__tap-small
+);
+
+$hw-spacing: (
+  '0': $spacing__0,
+  '1': $spacing__1,
+  '2': $spacing__2,
+  '3': $spacing__3,
+  '4': $spacing__4,
+  '5': $spacing__5,
+  '6': $spacing__6,
+  '7': $spacing__7,
+  '8': $spacing__8,
+  '9': $spacing__9,
+  '10': $spacing__10
+);

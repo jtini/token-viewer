@@ -1,0 +1,59 @@
+@import '../stylesheets/tokens';
+@import '../stylesheets/reset-button';
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-family__primary;
+    color: $text-color__copy;
+    background-color: $bg;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+    @extend %reset-button;
+}
+
+p { margin: 0; }
+
+h1,
+h2,
+h3,
+h4 { font-weight: $fw__bold; }
+
+h2,
+h3 {
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size: $fs-title-large;
+    // padding-top: $spacing__6;
+    margin-bottom: $m__small;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: $fs-title-small;
+    padding-top: $spacing__4;
+    margin: $m__small 0;
+}
+
+code {
+    display: inline-block;
+}
+
+.tokens__category {
+    padding-top: $p__xlarge;
+
+    &:not(:first-of-type) {
+        margin-top: $spacing__6;
+    }
+}
+
