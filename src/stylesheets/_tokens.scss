@@ -1,6 +1,6 @@
 /**
 * Do not edit directly
-* Generated on Sat, 27 Jul 2019 17:08:41 GMT
+* Generated on Sat, 27 Jul 2019 22:39:57 GMT
 */
 
 $br__button: 0.25rem !default;
@@ -8,24 +8,8 @@ $br__input: 0.25rem !default;
 $bg: #F9FAFC !default;
 $bg-light: #fff !default;
 $bg-dark: #f0f2f7 !default;
-$bg__night: #15181E !default;
-$bg__night-light: #3e4552 !default;
-$bg__night-dark: #0a0c10 !default;
 $border-color: #e1e4eb !default;
 $border-color-bold: #c7cbd6 !default;
-$border-color__night: #b0b5c1 !default;
-$border-color__night-bold: #e1e4eb !default;
-$c__greyscale-0: #f0f2f7 !default;
-$c__greyscale-1: #e1e4eb !default;
-$c__greyscale-2: #c7cbd6 !default;
-$c__greyscale-3: #b0b5c1 !default;
-$c__greyscale-4: #969eab !default;
-$c__greyscale-5: #7f8794 !default;
-$c__greyscale-6: #69707d !default;
-$c__greyscale-7: #525966 !default;
-$c__greyscale-8: #3e4552 !default;
-$c__greyscale-9: #2c323d !default;
-$c__greyscale-10: #0a0c10 !default;
 $c__primary: #1948cb !default;
 $c__primary-lighter: #e1e7f9 !default;
 $c__primary-light: #4a70d9 !default;
@@ -51,6 +35,17 @@ $c__critical-lighter: #ffe8e6 !default;
 $c__critical-light: #ee5c52 !default;
 $c__critical-dark: #98180f !default;
 $c__critical-darker: #4f0803 !default;
+$c__greyscale-0: #f0f2f7 !default;
+$c__greyscale-1: #e1e4eb !default;
+$c__greyscale-2: #c7cbd6 !default;
+$c__greyscale-3: #b0b5c1 !default;
+$c__greyscale-4: #969eab !default;
+$c__greyscale-5: #7f8794 !default;
+$c__greyscale-6: #69707d !default;
+$c__greyscale-7: #525966 !default;
+$c__greyscale-8: #3e4552 !default;
+$c__greyscale-9: #2c323d !default;
+$c__greyscale-10: #0a0c10 !default;
 $text-color__copy: #2c323d !default;
 $text-color__copy-light: #525966 !default;
 $text-color__copy-lighter: #7f8794 !default;
@@ -154,31 +149,15 @@ $hw-border-radius: (
 $hw-background-color: (
   'base': $bg,
   'light': $bg-light,
-  'dark': $bg-dark,
-  'night': $bg__night,
-  'night-light': $bg__night-light,
-  'night-dark': $bg__night-dark
+  'dark': $bg-dark
 );
 
 $hw-border-color: (
   'base': $border-color,
-  'bold': $border-color-bold,
-  'night': $border-color__night,
-  'night-bold': $border-color__night-bold
+  'bold': $border-color-bold
 );
 
 $hw-color: (
-  'greyscale-0': $c__greyscale-0,
-  'greyscale-1': $c__greyscale-1,
-  'greyscale-2': $c__greyscale-2,
-  'greyscale-3': $c__greyscale-3,
-  'greyscale-4': $c__greyscale-4,
-  'greyscale-5': $c__greyscale-5,
-  'greyscale-6': $c__greyscale-6,
-  'greyscale-7': $c__greyscale-7,
-  'greyscale-8': $c__greyscale-8,
-  'greyscale-9': $c__greyscale-9,
-  'greyscale-10': $c__greyscale-10,
   'primary': $c__primary,
   'primary-lighter': $c__primary-lighter,
   'primary-light': $c__primary-light,
@@ -203,7 +182,18 @@ $hw-color: (
   'critical-lighter': $c__critical-lighter,
   'critical-light': $c__critical-light,
   'critical-dark': $c__critical-dark,
-  'critical-darker': $c__critical-darker
+  'critical-darker': $c__critical-darker,
+  'greyscale-0': $c__greyscale-0,
+  'greyscale-1': $c__greyscale-1,
+  'greyscale-2': $c__greyscale-2,
+  'greyscale-3': $c__greyscale-3,
+  'greyscale-4': $c__greyscale-4,
+  'greyscale-5': $c__greyscale-5,
+  'greyscale-6': $c__greyscale-6,
+  'greyscale-7': $c__greyscale-7,
+  'greyscale-8': $c__greyscale-8,
+  'greyscale-9': $c__greyscale-9,
+  'greyscale-10': $c__greyscale-10
 );
 
 $hw-text-color: (

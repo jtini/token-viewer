@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import Clipboard from 'react-clipboard.js';
 import tokens from '../../tokens/scss'
@@ -21,7 +21,7 @@ const Token = props => {
 
     // For nice appearance
     const borderColor = tokens['border-color'].base.base.value
-    const darkBg = tokens['background-color'].night.base.value
+    const darkBg = tokens['color'].greyscale['10'].value
     const codeFont = tokens['font-family'].code.value
 
     if (category === 'color' || category === 'background-color') {

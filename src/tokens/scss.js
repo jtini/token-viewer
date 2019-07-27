@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 27 Jul 2019 17:08:41 GMT
+ * Generated on Sat, 27 Jul 2019 22:39:57 GMT
  */
 
 module.exports = {
@@ -89,59 +89,6 @@ module.exports = {
                     "dark"
                 ]
             }
-        },
-        "night": {
-            "base": {
-                "value": "#15181E",
-                "original": {
-                    "value": "#15181E"
-                },
-                "name": "bg__night",
-                "attributes": {
-                    "category": "background-color",
-                    "type": "night",
-                    "item": "base"
-                },
-                "path": [
-                    "background-color",
-                    "night",
-                    "base"
-                ]
-            },
-            "light": {
-                "value": "#3e4552",
-                "original": {
-                    "value": "{color.greyscale.8.value}"
-                },
-                "name": "bg__night-light",
-                "attributes": {
-                    "category": "background-color",
-                    "type": "night",
-                    "item": "light"
-                },
-                "path": [
-                    "background-color",
-                    "night",
-                    "light"
-                ]
-            },
-            "dark": {
-                "value": "#0a0c10",
-                "original": {
-                    "value": "{color.greyscale.10.value}"
-                },
-                "name": "bg__night-dark",
-                "attributes": {
-                    "category": "background-color",
-                    "type": "night",
-                    "item": "dark"
-                },
-                "path": [
-                    "background-color",
-                    "night",
-                    "dark"
-                ]
-            }
         }
     },
     "border-color": {
@@ -180,234 +127,9 @@ module.exports = {
                     "bold"
                 ]
             }
-        },
-        "night": {
-            "base": {
-                "value": "#b0b5c1",
-                "original": {
-                    "value": "{color.greyscale.3.value}"
-                },
-                "name": "border-color__night",
-                "attributes": {
-                    "category": "border-color",
-                    "type": "night",
-                    "item": "base"
-                },
-                "path": [
-                    "border-color",
-                    "night",
-                    "base"
-                ]
-            },
-            "bold": {
-                "value": "#e1e4eb",
-                "original": {
-                    "value": "{color.greyscale.1.value}"
-                },
-                "name": "border-color__night-bold",
-                "attributes": {
-                    "category": "border-color",
-                    "type": "night",
-                    "item": "bold"
-                },
-                "path": [
-                    "border-color",
-                    "night",
-                    "bold"
-                ]
-            }
         }
     },
     "color": {
-        "greyscale": {
-            "0": {
-                "value": "#f0f2f7",
-                "original": {
-                    "value": "#F0F2F7"
-                },
-                "name": "c__greyscale-0",
-                "attributes": {
-                    "category": "color",
-                    "type": "greyscale",
-                    "item": "0"
-                },
-                "path": [
-                    "color",
-                    "greyscale",
-                    "0"
-                ]
-            },
-            "1": {
-                "value": "#e1e4eb",
-                "original": {
-                    "value": "#E1E4EB"
-                },
-                "name": "c__greyscale-1",
-                "attributes": {
-                    "category": "color",
-                    "type": "greyscale",
-                    "item": "1"
-                },
-                "path": [
-                    "color",
-                    "greyscale",
-                    "1"
-                ]
-            },
-            "2": {
-                "value": "#c7cbd6",
-                "original": {
-                    "value": "#C7CBD6"
-                },
-                "name": "c__greyscale-2",
-                "attributes": {
-                    "category": "color",
-                    "type": "greyscale",
-                    "item": "2"
-                },
-                "path": [
-                    "color",
-                    "greyscale",
-                    "2"
-                ]
-            },
-            "3": {
-                "value": "#b0b5c1",
-                "original": {
-                    "value": "#B0B5C1"
-                },
-                "name": "c__greyscale-3",
-                "attributes": {
-                    "category": "color",
-                    "type": "greyscale",
-                    "item": "3"
-                },
-                "path": [
-                    "color",
-                    "greyscale",
-                    "3"
-                ]
-            },
-            "4": {
-                "value": "#969eab",
-                "original": {
-                    "value": "#969EAB"
-                },
-                "name": "c__greyscale-4",
-                "attributes": {
-                    "category": "color",
-                    "type": "greyscale",
-                    "item": "4"
-                },
-                "path": [
-                    "color",
-                    "greyscale",
-                    "4"
-                ]
-            },
-            "5": {
-                "value": "#7f8794",
-                "original": {
-                    "value": "#7F8794"
-                },
-                "name": "c__greyscale-5",
-                "attributes": {
-                    "category": "color",
-                    "type": "greyscale",
-                    "item": "5"
-                },
-                "path": [
-                    "color",
-                    "greyscale",
-                    "5"
-                ]
-            },
-            "6": {
-                "value": "#69707d",
-                "original": {
-                    "value": "#69707D"
-                },
-                "name": "c__greyscale-6",
-                "attributes": {
-                    "category": "color",
-                    "type": "greyscale",
-                    "item": "6"
-                },
-                "path": [
-                    "color",
-                    "greyscale",
-                    "6"
-                ]
-            },
-            "7": {
-                "value": "#525966",
-                "original": {
-                    "value": "#525966"
-                },
-                "name": "c__greyscale-7",
-                "attributes": {
-                    "category": "color",
-                    "type": "greyscale",
-                    "item": "7"
-                },
-                "path": [
-                    "color",
-                    "greyscale",
-                    "7"
-                ]
-            },
-            "8": {
-                "value": "#3e4552",
-                "original": {
-                    "value": "#3E4552"
-                },
-                "name": "c__greyscale-8",
-                "attributes": {
-                    "category": "color",
-                    "type": "greyscale",
-                    "item": "8"
-                },
-                "path": [
-                    "color",
-                    "greyscale",
-                    "8"
-                ]
-            },
-            "9": {
-                "value": "#2c323d",
-                "original": {
-                    "value": "#2C323D"
-                },
-                "name": "c__greyscale-9",
-                "attributes": {
-                    "category": "color",
-                    "type": "greyscale",
-                    "item": "9"
-                },
-                "path": [
-                    "color",
-                    "greyscale",
-                    "9"
-                ]
-            },
-            "10": {
-                "value": "#0a0c10",
-                "original": {
-                    "value": "#0A0C10"
-                },
-                "name": "c__greyscale-10",
-                "attributes": {
-                    "category": "color",
-                    "type": "greyscale",
-                    "item": "10"
-                },
-                "path": [
-                    "color",
-                    "greyscale",
-                    "10"
-                ]
-            }
-        },
         "primary": {
             "base": {
                 "value": "#1948cb",
@@ -840,6 +562,195 @@ module.exports = {
                     "color",
                     "critical",
                     "darker"
+                ]
+            }
+        },
+        "greyscale": {
+            "0": {
+                "value": "#f0f2f7",
+                "original": {
+                    "value": "#F0F2F7"
+                },
+                "name": "c__greyscale-0",
+                "attributes": {
+                    "category": "color",
+                    "type": "greyscale",
+                    "item": "0"
+                },
+                "path": [
+                    "color",
+                    "greyscale",
+                    "0"
+                ]
+            },
+            "1": {
+                "value": "#e1e4eb",
+                "original": {
+                    "value": "#E1E4EB"
+                },
+                "name": "c__greyscale-1",
+                "attributes": {
+                    "category": "color",
+                    "type": "greyscale",
+                    "item": "1"
+                },
+                "path": [
+                    "color",
+                    "greyscale",
+                    "1"
+                ]
+            },
+            "2": {
+                "value": "#c7cbd6",
+                "original": {
+                    "value": "#C7CBD6"
+                },
+                "name": "c__greyscale-2",
+                "attributes": {
+                    "category": "color",
+                    "type": "greyscale",
+                    "item": "2"
+                },
+                "path": [
+                    "color",
+                    "greyscale",
+                    "2"
+                ]
+            },
+            "3": {
+                "value": "#b0b5c1",
+                "original": {
+                    "value": "#B0B5C1"
+                },
+                "name": "c__greyscale-3",
+                "attributes": {
+                    "category": "color",
+                    "type": "greyscale",
+                    "item": "3"
+                },
+                "path": [
+                    "color",
+                    "greyscale",
+                    "3"
+                ]
+            },
+            "4": {
+                "value": "#969eab",
+                "original": {
+                    "value": "#969EAB"
+                },
+                "name": "c__greyscale-4",
+                "attributes": {
+                    "category": "color",
+                    "type": "greyscale",
+                    "item": "4"
+                },
+                "path": [
+                    "color",
+                    "greyscale",
+                    "4"
+                ]
+            },
+            "5": {
+                "value": "#7f8794",
+                "original": {
+                    "value": "#7F8794"
+                },
+                "name": "c__greyscale-5",
+                "attributes": {
+                    "category": "color",
+                    "type": "greyscale",
+                    "item": "5"
+                },
+                "path": [
+                    "color",
+                    "greyscale",
+                    "5"
+                ]
+            },
+            "6": {
+                "value": "#69707d",
+                "original": {
+                    "value": "#69707D"
+                },
+                "name": "c__greyscale-6",
+                "attributes": {
+                    "category": "color",
+                    "type": "greyscale",
+                    "item": "6"
+                },
+                "path": [
+                    "color",
+                    "greyscale",
+                    "6"
+                ]
+            },
+            "7": {
+                "value": "#525966",
+                "original": {
+                    "value": "#525966"
+                },
+                "name": "c__greyscale-7",
+                "attributes": {
+                    "category": "color",
+                    "type": "greyscale",
+                    "item": "7"
+                },
+                "path": [
+                    "color",
+                    "greyscale",
+                    "7"
+                ]
+            },
+            "8": {
+                "value": "#3e4552",
+                "original": {
+                    "value": "#3E4552"
+                },
+                "name": "c__greyscale-8",
+                "attributes": {
+                    "category": "color",
+                    "type": "greyscale",
+                    "item": "8"
+                },
+                "path": [
+                    "color",
+                    "greyscale",
+                    "8"
+                ]
+            },
+            "9": {
+                "value": "#2c323d",
+                "original": {
+                    "value": "#2C323D"
+                },
+                "name": "c__greyscale-9",
+                "attributes": {
+                    "category": "color",
+                    "type": "greyscale",
+                    "item": "9"
+                },
+                "path": [
+                    "color",
+                    "greyscale",
+                    "9"
+                ]
+            },
+            "10": {
+                "value": "#0a0c10",
+                "original": {
+                    "value": "#0A0C10"
+                },
+                "name": "c__greyscale-10",
+                "attributes": {
+                    "category": "color",
+                    "type": "greyscale",
+                    "item": "10"
+                },
+                "path": [
+                    "color",
+                    "greyscale",
+                    "10"
                 ]
             }
         }
