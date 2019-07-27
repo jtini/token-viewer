@@ -1,5 +1,5 @@
 {
-  "name": "Token Viewer",
+  "name": "token-viewer",
   "private": true,
   "description": "A web UI to view design tokens",
   "version": "0.1.0",
